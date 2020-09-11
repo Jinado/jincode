@@ -1,0 +1,2 @@
+write("Hello, World!");
+write("I can have multiple write-statements in here\nand they'll all be transpiled to JavaScript");

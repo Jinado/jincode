@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
