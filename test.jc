@@ -1,1 +1,3 @@
+s myString = "A cool string";
+s secondString = "Hello, this is another string :)";
 write("Grimpan is gay and so is Vilshärad!");
