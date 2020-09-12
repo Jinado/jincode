@@ -34,9 +34,9 @@ function printHelp(exitCode: number = 0){
 }
 
 /**
- * Proccesses all arguments supplied to the transpiler
+ * Processes all arguments supplied to the transpiler
  */
-function proccessArguments(){
+function processArguments(){
     if(process.argv.length === 2) printHelp(1);
 
     if(process.argv[2] === "-h" || process.argv[2] === "--help"){
@@ -78,7 +78,7 @@ function getCode(): jci.Code{
  * Runs the transpiler
  */
 function main(){
-    proccessArguments();
+    processArguments();
     const code: jci.Code = getCode();
 
     const result: Array<string> = lexer(code.code);
