@@ -1,6 +1,6 @@
 {
   "name": "jincode",
-  "version": "1.0.0",
+  "version": "1.0.1.0",
   "description": "A transpiler for JinCode to JavaScript",
   "main": "main.js",
   "scripts": {
